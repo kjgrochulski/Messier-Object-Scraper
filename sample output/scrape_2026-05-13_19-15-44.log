@@ -1,0 +1,23 @@
+=== run started Wed May 13 19:15:44 EDT 2026 ===
+node: /Users/karolgrochulski/.nvm/versions/node/v24.15.0/bin/node
+Launching browser to establish session...
+Session established
+
+>  Done Deal
+  [Done Deal] page 1
+  [Done Deal] page 1 error: Runtime.callFunctionOn timed out. Increase the 'protocolTimeout' setting in launch/connect calls for a higher timeout if needed.
+   ✓ 0 rows
+>  Rumor
+  [Rumor] page 1
+  [Rumor] 20/60 rows
+  [Rumor] page 2
+  [Rumor] 40/60 rows
+  [Rumor] page 3
+  [Rumor] 60/60 rows
+   ✓ 60 rows
+
+CSV  -> /Users/karolgrochulski/Development/scraper/output/transfers.csv  (58 unique rows)
+JSON -> /Users/karolgrochulski/Development/scraper/output/transfers.json
+
+Done -> 58 transfers saved.
+=== run finished Wed May 13 19:27:36 EDT 2026 (exit 0) ===
